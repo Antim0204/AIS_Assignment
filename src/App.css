@@ -1,0 +1,67 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+/*  adding css to timer */
+.timer {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/*  setting font to the question asked */
+.question {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* setting options to the question */
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/* setting options css */
+.option {
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* setting color to the tick options */
+.option.selected {
+  background-color: grey;
+}
+
+.option.correct {
+  background-color: #a5d6a7; /* Green */
+  border-color: #388e3c;
+}
+
+/* setting the red color to the incorrect tick option */
+.option.incorrect {
+  background-color: #ef9a9a; /* Red */
+  border-color: #d32f2f;
+}
+
+/* styling button */
+button {
+  padding: 10px 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/* styling Show a pop up message to the user to reload the page if they want to fill the questionnaire again on time up*/
+
+.popup {
+  color: red;
+  margin-top: 20px;
+  font-weight: bold;
+}
